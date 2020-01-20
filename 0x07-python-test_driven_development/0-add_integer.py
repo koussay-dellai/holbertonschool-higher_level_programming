@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-   This module contains a fucntion that adds two integers 
+   This module contains a fucntion that adds two integers
    and returns an integer number
+   typecaste the result
 """
 def add_integer(a, b=98):
     """
