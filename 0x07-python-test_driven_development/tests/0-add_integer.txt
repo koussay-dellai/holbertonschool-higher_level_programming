@@ -39,3 +39,8 @@ return int number for adding float b and integer a
 Traceback (most recent call last):
     ...
 TypeError: a must be an integer
+
+>>> add_integer(5, 1.7976931348623157e+309)
+Traceback (most recent call last):
+    ...
+ValueError: float overflow
