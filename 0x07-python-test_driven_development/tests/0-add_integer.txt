@@ -28,3 +28,14 @@ TypeError: b must be an integer
 return int number for adding float b and integer a
 >>> add_integer(5, 3.0)
 8
+
+>>> add_integer(100.3, -2)
+98
+
+>>> add_integer(-2, 100.3)
+98
+
+>>> add_integer(None)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
