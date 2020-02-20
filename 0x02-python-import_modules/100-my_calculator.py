@@ -8,7 +8,7 @@ if __name__ == "__main__":
     dict1 = {'+': add, '-': sub, '*': mul, '/': div}
     for key, value in dict1.items():
         if argv[2] == key:
-            print("{} {} {} = {}".format(argv[1], argv[2], argv[3],
+            print("{:s} {:s} {:s} = {:d}".format(argv[1], argv[2], argv[3],
                                          value(int(argv[1]), int(argv[3]))))
             exit(0)
         print("Unknown operator. Available operators: +, -, * and /")
